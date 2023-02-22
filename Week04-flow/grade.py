@@ -1,20 +1,24 @@
+#Write a program (grade.py) that reads in a student’s percentage mark and prints out corresponding the grade (the program should check that the percentage is valid
+#Modified to round float percentage to nearest digit.  
+import math
 
 percentage = float(input("Enter the percentage: "))
+rounded = round(percentage)
 
-if percentage < 0 or percentage > 100:
+if rounded < 0 or rounded > 100:
 
  print ("Please enter a number between 0 and 100")
-elif percentage < 40: 
+elif rounded < 40: 
  print ("Fail")
 
-elif percentage < 50: 
+elif rounded < 50: 
  print ("Pass")
 
-elif percentage < 60: 
+elif rounded < 60: 
  print ("Merit1")
 
-elif percentage < 70:
+elif rounded < 70:
  print ("Merit2")
- 
+
 else: 
  print ("Distinction")
