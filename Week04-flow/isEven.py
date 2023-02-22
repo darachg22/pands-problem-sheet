@@ -10,4 +10,3 @@ if number == -1:
     else:
         print (f"{number} is an odd number")
 
-else 
