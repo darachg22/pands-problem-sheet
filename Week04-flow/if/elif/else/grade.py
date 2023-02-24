@@ -1,3 +1,4 @@
+#Author: Darach Gorham
 #Write a program (grade.py) that reads in a student’s percentage mark and prints out corresponding the grade (the program should check that the percentage is valid
 #Modified to round float percentage to nearest digit.  
 import math
