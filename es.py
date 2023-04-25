@@ -12,3 +12,5 @@ with open(filename, "r", encoding="utf-8") as file:
 
 # The end result
 print(f"{count}")
+
+

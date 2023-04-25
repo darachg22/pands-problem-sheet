@@ -5,13 +5,13 @@
 #I discovered it was much more compact and easier to do if left as an integer.
 
 
+
 import datetime
 
-x_date = datetime.date(2022, 4, 22)
-no = x_date.weekday()
+today = datetime.date.today()
+no = today.weekday()
 
 if no < 5:
     print("Yes, unfortunately today is a weekday.")
-
 else:  
     print("It is the weekend, yay!")
